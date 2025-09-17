@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "investigation-page-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/investigationPage/InvestigationPageWebPart.js",
+          "manifest": "./src/webparts/investigationPage/InvestigationPageWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "InvestigationPageWebPartStrings": "lib/webparts/investigationPage/loc/{locale}.js"
+  }
+}
